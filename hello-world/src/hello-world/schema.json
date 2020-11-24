@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "id": "Hello-world",
+    "type": "object",
+    "properties": {
+        "path": {
+            "description": "nome ficheiro teste",
+            "type": "string",
+            "default": "Sim",
+            "x-prompt": "Gostaria de criar o ficheiro ?"
+        },
+        "name": {
+            "description": "Mostrar uma mensagem",
+            "type": "string",
+            "x-prompt": "Digite o nome: "
+        }
+    },
+    "required": [
+        "path", "name"
+    ]
+
+}
